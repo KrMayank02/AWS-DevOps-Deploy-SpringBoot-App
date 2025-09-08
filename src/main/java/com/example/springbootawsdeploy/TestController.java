@@ -12,8 +12,8 @@ public class TestController {
         return "First message from AWS ECS - Congratulations";
     }
 
-    @GetMapping("/message")
-    public String getMessage() {
-        return "Second message from AWS ECS - Automated Pipeline working!";
-    }
+   // @GetMapping("/message")
+   // public String getMessage() {
+   //    return "Second message from AWS ECS - Automated Pipeline working!";
+   // }
 }
