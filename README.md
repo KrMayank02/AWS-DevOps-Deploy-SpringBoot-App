@@ -14,6 +14,7 @@ The company wants to reduce the manual intervention required to deploy updates b
 - Docker
 - IAM
 
+------------------------------------------------------------------------------------------------------------------------------
 
 **High Level Project Diagram:**
 
