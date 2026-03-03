@@ -1,20 +1,31 @@
-# springboot-aws-deploy
+# AWS DevOps - CI/CD Pipeline for Spring Boot Application Deployment
 
-This is a sample microservice to deploy it on AWS ECS.
+**Objective:** To implement a CI/CD pipeline using AWS services for automating the deployment of a Spring Boot Application on Amazon ECS with Docker, integrating CodePipeline, CodeBuild and ECR for seamless updates.
 
-To build automated AWS CodePipeline and deploy microservice to AWS ECS, follow tutorial as shown in video :
+**Real-time scenario:** Imagine a retail company that has a Spring Boot-based inventory management system. The system is used by several departments and is hosted in containers to ensure scalability. 
+The company wants to reduce the manual intervention required to deploy updates by automating the build and deployment process. By setting up a CI/CD pipeline, developers can push updates to a GitHub repository, automatically triggering a sequence of actions that build, containerize, and deploy the application without downtime. This ensures faster and more reliable system updates, minimizing operational delays.
+
+**Major Tools, AWS Services, Environment Used in this Project:**
+
+- AWS CodePipeline
+- AWS CodeBuild
+- AWS ECR
+- AWS ECS
+- Docker
+- IAM
 
 
+**High Level Project Diagram:**
 
-Health Check command for AWS Task definition : 
-```
-CMD-SHELL,curl -f http://localhost:8080/actuator/health || exit 1
-```
+<img width="958" height="497" alt="image" src="https://github.com/user-attachments/assets/525d106c-5d79-4ec6-88c5-6eb217f2ecd3" />
+-----------------------------------------------------------------------------------------------------------------------
 
+**High Level Tasks/Steps:**
 
-Prerequisite :
-1. AWS acconunt.
-2. Git and docker installed on the machine.
-3. Docker should be started before building docker image.
-4. And your favourite code editor 
-
+-	Fork the Springboot app project GitHub repository.
+-	Create Amazon ECR Public Repository.
+-	Check and update the buildspec.yml and Dockerfile in GitHub Repo.
+-	Create AWS CodeBuild project to build the source code and push the image to AWS ECR repository.
+-	Create AWS ECS cluster with Fargate (launch type), Task Definition and Service to deploy & run containerized application.
+-	Create & configure AWS CodePipeline to trigger on GitHub changes, integrating CodeBuild and ECS for automated deployment.
+-	Check and monitor the CI/CD pipeline execution in AWS CodePipeline for GitHub repo changes.
