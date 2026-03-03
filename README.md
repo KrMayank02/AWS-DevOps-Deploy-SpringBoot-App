@@ -64,7 +64,9 @@ The build logs displayed that the Build completed, Image created and pushed to E
 Tail Logs Screesnhot:
 
 <img width="928" height="633" alt="image" src="https://github.com/user-attachments/assets/6de6cb08-8ba0-49ee-b5b3-fd64a751e374" />
-------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+
 Image pushed to ECR Repository, screenshot:
 
 <img width="959" height="294" alt="image" src="https://github.com/user-attachments/assets/a3439810-317b-44c4-81fd-cbbf0f98de8d" />
@@ -94,7 +96,8 @@ The CodePipeline – Build stage pushed the image to ECR successfully.
 The CodePipeline – Deploy stage deployed the latest app image into the ECS under Services >> Task definitions.
 
 <img width="908" height="439" alt="image" src="https://github.com/user-attachments/assets/57ff6428-2049-46ad-a65f-95f6877584c6" />
-------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------
 
 <img width="944" height="293" alt="image" src="https://github.com/user-attachments/assets/355db01e-8565-4aec-b00d-77a34fe1e273" />
 
@@ -103,7 +106,8 @@ The CodePipeline – Deploy stage deployed the latest app image into the ECS und
 copy the Public IP of deployed Application and access it on browser with below URL: http://44.202.24.165:8080/demo/data
 
 <img width="949" height="340" alt="image" src="https://github.com/user-attachments/assets/107e4c20-20a0-4f4d-ba8f-a51c74f6e580" />
-------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------
 
 <img width="683" height="260" alt="image" src="https://github.com/user-attachments/assets/84b240af-b482-47fe-b01b-17be1f34fa9c" />
 
@@ -113,7 +117,8 @@ copy the Public IP of deployed Application and access it on browser with below U
 do some code changes in the Application GitHub Repository and then will check that due to Repository code changes if the AWS CodePipeline gets triggered:
 
 <img width="795" height="576" alt="image" src="https://github.com/user-attachments/assets/6d9840e7-38c1-46b3-802e-08c537b8e349" />
----------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------
 
 <img width="718" height="568" alt="image" src="https://github.com/user-attachments/assets/60c61828-dbcf-446b-8964-c422553f4baf" />
 
@@ -130,7 +135,8 @@ Just after the code changes done in Github repo, the AWS CodePipeline execution 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 <img width="960" height="410" alt="image" src="https://github.com/user-attachments/assets/d830b9a6-f7b2-4aa0-af24-18814cc00e12" />
----------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 <img width="956" height="343" alt="image" src="https://github.com/user-attachments/assets/edc94427-72ac-4fc9-bbd7-31e93700f698" />
 
