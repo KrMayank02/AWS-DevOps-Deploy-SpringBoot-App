@@ -31,3 +31,5 @@ The company wants to reduce the manual intervention required to deploy updates b
 -	Create AWS ECS cluster with Fargate (launch type), Task Definition and Service to deploy & run containerized application.
 -	Create & configure AWS CodePipeline to trigger on GitHub changes, integrating CodeBuild and ECS for automated deployment.
 -	Check and monitor the CI/CD pipeline execution in AWS CodePipeline for GitHub repo changes.
+
+
