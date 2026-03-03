@@ -19,7 +19,8 @@ The company wants to reduce the manual intervention required to deploy updates b
 **High Level Project Diagram:**
 
 <img width="958" height="497" alt="image" src="https://github.com/user-attachments/assets/525d106c-5d79-4ec6-88c5-6eb217f2ecd3" />
------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------
 
 **High Level Tasks/Steps:**
 
