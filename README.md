@@ -1,4 +1,4 @@
-# AWS DevOps - CI/CD Pipeline for Spring Boot Application Deployment
+# Capstone Project: AWS DevOps - CI/CD Pipeline for Spring Boot Application Deployment
 
 **Objective:** To implement a CI/CD pipeline using AWS services for automating the deployment of a Spring Boot Application on Amazon ECS with Docker, integrating CodePipeline, CodeBuild and ECR for seamless updates.
 
