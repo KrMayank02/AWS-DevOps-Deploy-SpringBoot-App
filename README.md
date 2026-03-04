@@ -38,6 +38,10 @@ Amazon ECR Public Repository with name “springboot”.
 
 <img width="911" height="442" alt="image" src="https://github.com/user-attachments/assets/954ce97f-13db-4a59-8ff0-401391f02e8e" />
 
+----------------------------------------------------------------------------------------------------------------------------
+
+<img width="966" height="587" alt="image" src="https://github.com/user-attachments/assets/35ed8114-6a5c-49f1-b100-56885d927b17" />
+
 -------------------------------------------------------------------------------------------------------------------------------
 
 modify the buildspec.yml under github repo: 
