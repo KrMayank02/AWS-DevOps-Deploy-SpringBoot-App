@@ -32,6 +32,8 @@ The company wants to reduce the manual intervention required to deploy updates b
 -	Create & configure AWS CodePipeline to trigger on GitHub changes, integrating CodeBuild and ECS for automated deployment.
 -	Check and monitor the CI/CD pipeline execution in AWS CodePipeline for GitHub repo changes.
 
+--------------------------------------------------------------------------------------------------------------------------------
+
 ## Output Results Screenshots:
 
 Amazon ECR Public Repository with name “springboot”.
