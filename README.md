@@ -78,6 +78,14 @@ Image pushed to ECR Repository, screenshot:
 
 The Services “springboot-task-service-ya4jo0qk” has been created & deployed successfully in Amazon ECS:
 
+<img width="963" height="451" alt="image" src="https://github.com/user-attachments/assets/4e5c01af-03f4-4ab0-9764-aaa636174127" />
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+<img width="939" height="424" alt="image" src="https://github.com/user-attachments/assets/a18d8370-442c-4527-a622-71dfff595334" />
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
 <img width="942" height="344" alt="image" src="https://github.com/user-attachments/assets/0df5517f-8963-4ddc-bf37-24dcf9f86a40" />
 
 --------------------------------------------------------------------------------------------------------------------------------------
